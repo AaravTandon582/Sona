@@ -22,11 +22,16 @@ These are project features, not awarded or predicted scores. Winning depends on 
 
 ## Submission checklist
 
-1. Run the working demo and inspect the three examples.
-2. Make a **public GitHub repository** from this checkout. Preserve real commit timestamps. Do not change the timestamps or claim pre-event work was made during the event.
-3. Make the hosted demo accessible to judges, or submit the recorded video. Sites initially publishes this project privately; an owner-only URL is not a public judging link.
-4. Submit the project name, repository URL, working demo/video, and the [write-up](DEVPOST.md) through the official event portal. Upload a video under three minutes.
-5. Disclose Codex assistance, the pretrained OCR model, open-source dependencies, and synthetic samples as listed in the README.
+- [x] Verify all three examples, independent uploads, exports, keyboard editing, cancellation, retry, responsive layout, and automated accessibility checks.
+- [x] Public demo: https://sona-chart-studio.noblellama8.chatgpt.site — accessible without signing in.
+- [x] Public source repository: https://github.com/AaravTandon582/banana-sona — original commit timestamps preserved.
+- [x] Prepare the [write-up](DEVPOST.md), [demo script](DEMO.md), and narrated walkthrough in the local submission package.
+- [x] Disclose Codex assistance, the pretrained OCR model, open-source dependencies, synthetic samples, and synthetic video narration.
+- [ ] Submit through the official event portal with the project name, repository URL, public demo, write-up, and video under three minutes. The project has not been submitted automatically.
+
+## Final verification — October 11, 2026
+
+All 10 unit tests and the production build passed under Node.js 22. Browser, upload, and usability suites passed in Chrome, including real OCR, exported files, error recovery, mobile overflow, and axe checks. The public demo returned HTTP 200 without an authentication cookie. These checks do not replace manual assistive-technology testing.
 
 The event site has inconsistent deadline text: the [schedule](https://www.bananahacks.tech/schedule) says **11:59 PM EDT Sunday, October 11**, while the [prizes page](https://www.bananahacks.tech/prizes) says **11:59 PM AoE**. Use the earlier schedule deadline—**8:59 PM Pacific on Sunday, October 11, 2026**—unless organizers explicitly confirm otherwise.
 

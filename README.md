@@ -2,6 +2,8 @@
 
 Sona turns a bar-chart screenshot into explorable data, sound, and reusable accessible graphics. It is built for educators preparing materials and people who need a different way to read charts.
 
+**[Open the public demo](https://sona-chart-studio.noblellama8.chatgpt.site)** · **[Source code](https://github.com/AaravTandon582/banana-sona)**
+
 **Upload → detect bars → local neural OCR → reconstruct data → review → explore, listen, export.**
 
 The complete image pipeline runs in the browser. There are no API keys, image uploads to a server, inference charges, or prerecorded extraction results. Three synthetic examples are included, and each is analyzed from its actual pixels.
@@ -54,6 +56,7 @@ With Google Chrome installed and the dev server running:
 ```sh
 npm run test:browser
 npm run test:uploads
+npm run test:usability
 ```
 
 Test screenshots and observations are written to `test-results/` (ignored by Git). See [evaluation](docs/EVALUATION.md) for measured results and their limits.

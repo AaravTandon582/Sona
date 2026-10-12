@@ -37,3 +37,5 @@ The browser suite checks arrow-key navigation, the active bar, play/stop control
 - Export text is escaped; CSV formula-like labels are neutralized.
 
 Run `npm test`, then start the app and run `npm run test:browser` and `npm run test:uploads`. Screenshots, accessibility results, and export artifacts go to the ignored `test-results/` directory.
+
+Run `npm run test:usability` to verify cancellation, retry after an OCR-model download failure, keyboard focus while editing, undo, description copying, and responsive layout. All three browser suites and all 10 unit tests passed in the final October 11, 2026 release check.
